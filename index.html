@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sai Venkat | Portfolio</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            background-color: #1E1E2C;
+            color: #F3F3F3;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #E63946;
+            color: white;
+            padding: 1.5rem 2rem;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            padding: 0;
+        }
+
+        nav ul li {
+            margin: 0 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        nav ul li a:hover {
+            color: #B31D2A;
+        }
+
+        section {
+            padding: 4rem 2rem;
+            text-align: center;
+        }
+
+        h2 {
+            margin-bottom: 1rem;
+            color: #E63946;
+        }
+
+        .cards {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 2rem;
+        }
+
+        .card {
+            background-color: #2A2B3D;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+            padding: 1.5rem;
+            border-radius: 8px;
+            width: 300px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        .profile-photo {
+            display: block;
+            width: 150px;
+            height: 150px;
+            margin: 0 auto 1rem;
+            border-radius: 50%;
+            border: 4px solid #E63946;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .btn {
+            background-color: #E63946;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .btn:hover {
+            background-color: #B31D2A;
+        }
+
+        footer {
+            text-align: center;
+            padding: 2rem;
+            background-color: #2A2B3D;
+            color: #F3F3F3;
+            margin-top: 2rem;
+        }
+
+        @keyframes fadeInUp {
+            from {
+                transform: translateY(20px);
+                opacity: 0;
+            }
+
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Sai Venkat | Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Motivated and ambitious undergraduate student pursuing a degree in Computer Science with a focus on AI and Machine Learning. Skilled at tackling technical challenges, managing time effectively, and excelling in communication.</p>
+        <p><strong>Location:</strong> Hyderabad</p>
+        <p><strong>Email:</strong> <a href="mailto:alasaivenkat24@gmail.com">alasaivenkat24@gmail.com</a></p>
+        <p><strong>Phone:</strong> 9949197282</p>
+    </section>
+
+    <section id="education">
+        <h2>Education & Certifications</h2>
+        <div class="cards">
+            <div class="card">
+                <h3>Education</h3>
+                <p><strong>College:</strong> MLR Institute of Technology</p>
+                <p><strong>CGPA:</strong> 8.3</p>
+                <p><strong>Year:</strong> III (2022-Present)</p>
+            </div>
+            <div class="card">
+                <h3>Certifications</h3>
+                <p>Autodesk (3D Modeling)</p>
+                <p>Gen AI2.0 Hackathon</p>
+                <p>Cambridge University - Upskill Exam</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2>Technical & Non-Technical Skills</h2>
+        <div class="cards">
+            <div class="card">
+                <h3>Technical</h3>
+                <p>C, HTML, CSS, Python, Java (OOP)</p>
+            </div>
+            <div class="card">
+                <h3>Non-Technical</h3>
+                <p>Content Writing, Script Writing</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="cards">
+            <div class="card">
+                <h3>Photo Management App</h3>
+                <p>A photo management app allowing users to set deletion durations, backup photos via email, and manage photo folders using facial recognition technology.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Let’s connect!</p>
+        <a href="https://www.linkedin.com/in/sai-venkat-ala" class="btn">Visit LinkedIn</a>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Sai Venkat | Portfolio</p>
+    </footer>
+
+</body>
+
+</html>
